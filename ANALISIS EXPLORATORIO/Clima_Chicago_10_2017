@@ -1,0 +1,10 @@
+import requests
+import pandas as pd
+
+URL = 'https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html'
+
+response = requests.get(URL)
+
+print('Condicion de solicitud del URL: ', response)
+
+
