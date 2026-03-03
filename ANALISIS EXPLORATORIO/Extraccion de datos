@@ -29,3 +29,5 @@ df = pd.DataFrame(rows, columns=headers)
 #se muestra el DataFrame
 print(df)
 
+#Se guarda el DataFrame en un archivo CSV
+df.to_csv('clima_chicago_2017.csv', index=False)
